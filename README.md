@@ -17,4 +17,5 @@ excel文件：result1.xlsx
 后续可以用于图形展示
 
 log文件：out-0.log
+python data-process.py out-0.log  >0.txt (指定输出文件)
 ```
