@@ -23,7 +23,7 @@ PR = 1
 for j in content_list:
     # print(j.split(' '))
     line_list = [i for i in (j.split(' ')) if i != '']
-    print(line_list)
+    # print(line_list)
     number_list = re.findall(r'\D(-?\d+)', line_list[-1])
     sheet_PR.write(PR, 0, line_list[-4], centered)
     sheet_PR.write(PR, 1, line_list[-1], centered)
